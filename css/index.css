@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+
+    background-color: #0F296B;
+}
+
+header .menu{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+
+}
+header .menu h1{
+    font-family: 'Saira Stencil One', cursive;
+    color:white;
+
+    margin-left: 24px;
+}
+.container{
+    width: 1440px;
+    max-width: 90%;
+    height: 700px;
+    margin: auto;
+}
+
+.container .wrapper h1 {
+    margin-top: 24px;
+}
+
+.container .wrapper .articles-wrap{
+    width: 850px;
+    max-width: 95%;
+    height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    border-radius: 10px;
+    margin-top: 24px;
+
+
+    background-color: #C4C4C4;
+}
+
+.container .wrapper .articles {
+    width: 98%;
+    height: 10%px;
+
+    margin: 10px auto; 
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: white;
+}
+
+
